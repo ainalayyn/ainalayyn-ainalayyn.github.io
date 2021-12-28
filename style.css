@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(carss/123.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 180px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-transform: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #6104ad;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff; 
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #6104ad;
+    background: transparent;
+    color: #ffff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-decoration-color: #fff;
+}
+
+span{
+    background: #6104ad;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover{
+    border: none;
+}
+
+.telephone {
+    color: whitesmoke;
+}
+
+
+
+.border{
+    width: 100%;
+    height: 180px;
+    background-image: url(./carss/almaty.png);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+}
+
+.container > h1, .container > h3 {
+    text-transform: uppercase;
+    background-color: rgba(187, 177, 177, 0.7);
+    letter-spacing: 10px;
+    max-width: 300px;
+    margin: 15px auto;
+    font-weight: 10;
+    padding: 15px;
+    
+}
+.container > h1 {
+    margin: 0 auto 15px;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {    
+    padding: 50px 0;
+    background: url(./carss/11111.png) 50%/cover no-repeat scroll;
+}
+
+.gold {
+    margin: 30px auto;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wrapper > h4 {
+    text-transform: uppercase;
+    background-color: rgba(187, 177, 177, 0.7);
+    letter-spacing: 3px;
+    max-width: 400px;
+    margin: 15px auto;
+    font-weight: 330;
+}
+
+.gold__photo {    
+    width: 340px;
+    height: 300px;
+    background: url(./carss/111.png) 50%/cover no-repeat;
+    margin: 0 10px 0 0;
+}
+.gold__about {
+    width: 390px;
+    text-align: left;
+    background-color: rgba(187, 177, 177, 0.7);
+    padding: 1rem;
+}
+.gold__about > p {
+    margin: 0;
+    letter-spacing: 5px;
+    font-weight: 10;
+}
+ 
+.btn {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    left: 48%;
+    transform: translate(-50%, 0);
+}
